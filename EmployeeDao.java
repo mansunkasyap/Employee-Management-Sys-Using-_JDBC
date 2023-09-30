@@ -45,7 +45,7 @@ public class EmployeeDao
 			System.out.println("Salary: "+res.getInt(4));
 		}
 			else {
-			throw new EmployeeException("BSDK Employee ye nahi h be");
+			throw new EmployeeException("EmployeeDoesNotExist");
 		}
 		System.out.println("----------------------------------");
 		res.close();
